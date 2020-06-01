@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>World Trip | Bootstrap4 Tours and Travels Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- DataTables -->
+    <link href="css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <!-- Responsive datatable examples -->
+    <link href="css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href="css/font-awesome-animation.min.css" rel="stylesheet">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/default.css">
+    <!-- Custom stylesheet-->
+    <link rel="stylesheet"  href="css/style.css">
+    <!-- Pushy CSS -->
+    <link rel="stylesheet" href="css/pushy.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
+    <div class="pre-loader"></div>
+
+    <div class="top-bar hidden-lg-down py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="info list-inline float-lg-left nav-fs">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="text-blue fa fa-envelope-o"></i> mail@domain.com
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <i class="text-blue fa fa-phone"></i> +91 1234567890
+                        </li>
+
+                    </ul> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-right">
+                        <ul class="list-inline sm-text-center float-lg-right info">
+                            <li class="list-inline-item">
+                                <a href="flights.html" class="hover-color">
+                                    <i class="text-blue fa fa-plane mr-1"></i> Flights
+                                </a>
+                            </li>
+                            
+                            <li class="list-inline-item">
+                                <a href="hotels.html" class="hover-color pr-1">
+                                    <i class="text-blue fa fa-bed mr-1"></i> Hotels
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="login.html" class="hover-color">
+                                    <i class="text-blue fa fa-user mr-1"></i> Login
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="register.html" class="hover-color pr-0">
+                                    <i class="text-blue fa fa-lock mr-1"></i> Create an Account
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="pushy pushy-right" data-focus="#first-link">
+        <div class="pushy-content">
+            <ul class="list-unstyled">
+                <li class="pushy-link"><a href="login.html">Login</a></li>
+
+                <li class="pushy-link"><a href="register.html">Register</a></li>
+
+                <li class="pushy-link">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="pushy-submenu">
+                    <button>Group Tours</button>
+                    <ul class="list-unstyled pushy-megamenu">
+                        <li class="pushy-link"><span class="pl-3">India Tours</span></li>
+                        <li class="pushy-link"><a href="andaman.html">Andaman</a></li>
+                        <li class="pushy-link"><a href="goa.html">Goa</a></li>
+                        <li class="pushy-link"><a href="gujarat.html">Gujarat</a></li>
+                        <li class="pushy-link"><a href="hp.html">Himachal Pradesh</a></li>
+                        <li class="pushy-link"><a href=kashmir.html>Kashmir</a></li>
+                        <li class="pushy-link"><a href="kerala.html">Kerala</a></li>
+                        <li class="pushy-link"><a href="ladakh.html">Leh Ladakh</a></li>
+                        <li class="pushy-link"><a href="mp.html">Madhya Pradesh</a></li>
+                        <li class="pushy-link"><a href="ne.html">NorthEast</a></li>
+                        <li class="pushy-link"><a href="rajasthan.html">Rajasthan</a></li>
+
+                        <li class="my-3 pushy-link"><span>World Tours</span></li>
+                        <li class="pushy-link"><a href="america.html">America</a></li>
+                        <li class="pushy-link"><a href="aussie.html">Australia</a></li>
+                        <li class="pushy-link"><a href="dubai.html">Dubai</a></li>
+                        <li class="pushy-link"><a href="europe.html">Europe</a></li>
+                        <li class="pushy-link"><a href="japan.html">Japan</a></li>
+                        <li class="pushy-link"><a href="mauritius.html">Mauritius</a></li>
+                        <li class="pushy-link"><a href="thailand.html">Thailand</a></li>
+                        <li class="pushy-link"><a href="singapore.html">Singapore</a></li>
+                    </ul>
+                </li>
+
+                <li class="pushy-submenu">
+                    <button>Speciality Tours</button>
+                    <ul class="list-unstyled pushy-megamenu">
+                        <li class="pushy-link"><a href="honeymoon.html">Honeymoon Special</a></li>
+                        <li class="pushy-link"><a href="weekend.html">Weekend Special</a></li>
+                        <li class="pushy-link"><a href="womens.html">Women’s Special</a></li>
+                        <li class="pushy-link"><a href="students.html">Students Special</a></li>
+                        <li class="pushy-link"><a href="post-tours.html">Post Tour Special</a></li>
+                    </ul>
+                </li>
+
+                <li class="pushy-link"><a href="corporate.html">Corporate Tours</a></li>
+                <li class="pushy-link"><a href="tours-status.html">Tours Status</a></li>
+                <li class="pushy-link"><a href="flights.html">Flights</a></li>
+
+                <li class="pushy-link"><a href="hotels.html">Hotels</a></li>
+
+                <li class="pushy-link"><a href="aboutus.html">About us</a></li>
+
+                <li class="pushy-link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hidden-lg-down">
+        <nav class="navbar navbar-toggleable-md navbar-light yamm">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right navbar-custom-toggle collapsed" type="button" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" class="img-fluid" alt="Logo">
+                </a>
+
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav ml-auto nav-fs align-middle">
+                        <li class="nav-item text-uppercase">
+                            <a href="index.html" class="nav-link mr-sm-1 mr-2">Home</a>
+                        </li>
+
+                        <li class="dropdown menu-large nav-item text-uppercase">
+                            <a href="#" class="dropdown-toggle nav-link mr-sm-1 mr-2" data-toggle="dropdown">Group Tours</a>
+                            <ul class="dropdown-menu megamenu menu nav-fs">
+                                <div class="row bg-blue">
+                                    <li class="col-lg-6 dropdown-item border-right-0 pl-4 pr-0">
+                                        <ul class="list-unstyled sub-megamenu">
+                                            <li class="mb-3"><span>India Tours</span></li>
+                                            <li class="mb-2"><a href="andaman.html">Andaman</a></li></li>
+                                            <li class="mb-2"><a href="goa.html">Goa</a></li>
+                                            <li class="mb-2"><a href="gujarat.html">Gujarat</a></li>
+                                            <li class="mb-2"><a href="hp.html">Himachal Pradesh</a></li>
+                                            <li class="mb-2"><a href=kashmir.html>Kashmir</a></li>
+                                            <li class="mb-2"><a href="kerala.html">Kerala</a></li>
+                                            <li class="mb-2"><a href="ladakh.html">Leh Ladakh</a></li>
+                                            <li class="mb-2"><a href="mp.html">Madhya Pradesh</a></li>
+                                            <li class="mb-2"><a href="ne.html">NorthEast</a></li>
+                                            <li class="mb-2"><a href="rajasthan.html">Rajasthan</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-lg-6 dropdown-item border-left-0 px-0">
+                                        <ul class="list-unstyled sub-megamenu">
+                                            <li class="mb-3"><span>World Tours</span></li>
+                                            <li class="mb-2"><a href="america.html">America</a></li>
+                                            <li class="mb-2"><a href="aussie.html">Australia</a></li>
+                                            <li class="mb-2"><a href="dubai.html">Dubai</a></li>
+                                            <li class="mb-2"><a href="europe.html">Europe</a></li>
+                                            <li class="mb-2"><a href="japan.html">Japan</a></li>
+                                            <li class="mb-2"><a href="mauritius.html">Mauritius</a></li>
+                                            <li class="mb-2"><a href="thailand.html">Thailand</a></li>
+                                            <li class="mb-2"><a href="singapore.html">Singapore</a></li>
+                                        </ul>
+                                    </li>    
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class=" dropdown nav-item text-uppercase">
+                            <a href="#" class="dropdown-toggle nav-link mr-sm-1 mr-2" data-toggle="dropdown">Speciality Tours</a>
+                            <ul class="dropdown-menu dropdown-menu-left menu nav-fs">
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="honeymoon.html">Honeymoon Special</a>
+                                </li> 
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="weekend.html">Weekend Special</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="womens.html">Women’s Special</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="students.html">Students Special</a>
+                                </li>  
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="post-tours.html">Post Tour Special</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="corporate.html" class="nav-link mr-sm-1 mr-2">Corporate Tours</a>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="tours-status.html" class="nav-link mr-sm-1 mr-2">Tours Status</a>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="aboutus.html" class="nav-link mr-sm-1 mr-2">About us</a>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="contact.html" class="nav-link pr-0">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="hidden-lg-up tagg">
+        <nav class="navbar fixed-top navbar-toggleable-sm navbar-light navbar-side">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" class="img-fluid" alt="Logo">
+                </a>
+
+                <ul class="nav navbar-nav ml-auto nav-fs navbar-custom-toggle navbar-toggler-right">
+                    <li class="nav-item">
+                        <i class="fa fa-bars menu-btn bar-fs" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="site-overlay"></div>
+    
+    <section class="mt-sm-6">
+       <div class="about-parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="d-sm-flex text-center">
+                            <div class="align-self-center">
+                                <h3 class="pl-3 text-white mb-0">Tours Status</h3>
+                            </div>
+
+                            <div class="align-self-center ml-auto">
+                                <ul class="crumb mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="index.html">Home</a>
+                                        <i class="text-white">/</i>
+                                    </li>
+                                    <li class="list-inline-item text-white mr-3">
+                                        <span>Tours Status</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <h4 class="text-linear">India Tours
+                    </h4>
+                    <table id="datatable" cellspacing="0" width="100%" class="table table-bordered table-hover dt-responsive custom-table">
+                        <thead>
+                            <tr>
+                                <th>Tour Name</th>
+                                <th>Tour Code</th>
+                                <th>Tour Manager</th>
+                                <th>Today's Schedule</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Andaman</span>
+                                </td>
+                                <td class="custom-medium">NEJW150218/A</td>
+                                <td class="custom-medium">
+                                    <span>Harman Bose</span>
+                                </td>
+                                <td class="custom-medium">Andaman-Departure to hometown</td>
+                                <td class="custom-medium">As per Schedule</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Honeymoon Special</span>
+                                </td>
+                                <td class="custom-medium">TMAIR190218/A</td>
+                                <td class="custom-medium">
+                                    <span>Ankush Patil</span>
+                                </td>
+                                <td class="custom-medium">Rajasthan-Departure to hometown</td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Airticket</span>
+                                </td>
+                                <td class="custom-medium">TMAIR190218/A</td>
+                                <td class="custom-medium">
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium"></td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Airticket</span>
+                                </td>
+                                <td class="custom-medium">TMAIR190218/B</td>
+                                <td class="custom-medium">
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium"></td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Airticket</span>
+                                </td>
+                                <td class="custom-medium">TMAIR190218/C</td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium"></td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Airticket</span>
+                                </td>
+                                <td class="custom-medium">TMAIR190218/D</td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium"></td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Goa</span>
+                                </td>
+                                <td class="custom-medium">GMAIR190218/C</td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium">Sam Rodes</td>
+                                <td class="custom-medium">As per Schedule</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Best Of Himachal</span>
+                                </td>
+                                <td class="custom-medium">HMAIR190218/F</td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium">Sunil Joshi</td>
+                                <td class="custom-medium">As per Schedule</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-lg-12">
+                    <h4 class="text-linear mt-5">World Tours
+                    </h4>
+                    <table id="datatable1" cellspacing="0" width="100%" class="table table-bordered table-hover dt-responsive custom-table">
+                        <thead>
+                            <tr>
+                                <th>Tour Name</th>
+                                <th>Tour Code</th>
+                                <th>Tour Manager</th>
+                                <th>Today's Schedule</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">America</span>
+                                </td>
+                                <td class="custom-medium">AMSA110218/A</td>
+                                <td class="custom-medium">
+                                    <span>Joe Doe</span>
+                                </td>
+                                <td class="custom-medium">New York-Departure to hometown</td>
+                                <td class="custom-medium">As per Schedule</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Australia</span>
+                                </td>
+                                <td class="custom-medium">MIAU4-C150218/A</td>
+                                <td class="custom-medium">
+                                    <span>Andrew Max</span>
+                                </td>
+                                <td class="custom-medium">Rajasthan-Departure to hometown</td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Airticket</span>
+                                </td>
+                                <td class="custom-medium">TMAIR190218/A</td>
+                                <td class="custom-medium">
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium"></td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Airticket</span>
+                                </td>
+                                <td class="custom-medium">TMAIR190218/B</td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium"></td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Singapore</span>
+                                </td>
+                                <td class="custom-medium">ASJW220218/A</td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium">Sam Rodes</td>
+                                <td class="custom-medium">As per Schedule</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Thailand</span>
+                                </td>
+                                <td class="custom-medium">TMTH11220218/A</td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium">Laura Bane</td>
+                                <td class="custom-medium">As per Schedule</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Airticket</span>
+                                </td>
+                                <td class="custom-medium">TMAIR190218/C</td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium"></td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            <tr>
+                                <td class="custom-medium">    
+                                    <span class="pl-2">Airticket</span>
+                                </td>
+                                <td class="custom-medium">TMAIR190218/D</td>
+                                <td>
+                                    <span></span>
+                                </td>
+                                <td class="custom-medium"></td>
+                                <td class="custom-medium">Arrived Safely</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--back to top-->
+    <a href="#" class="scrollToTop hidden-lg-down"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    
+    <footer class="footer">
+        <section class="bg-blue py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="page-links mb-4">
+                            <h5 class="text-white text-capitalize title">Useful Links</h5>
+                            <ul class="list-unstyled useful-link">
+                                <li class="mb-2"><a href="#" >About us</a></li>
+                                <li class="mb-2"><a href="#" >Careers</a></li>
+                                <li class="mb-2"><a href="#" >FAQs</a></li>
+                                <li class="mb-2"><a href="#" >How to Book</a></li>
+                                <li class="mb-2"><a href="#" >Privacy Policy</a></li>
+                                <li class="mb-2"><a href="#" >Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="page-links mb-4">
+                            <h5 class=" text-white text-capitalize title">Group Tours</h5>
+                            <ul class="list-unstyled useful-link">
+                                <li class="mb-2"><a href="#" >India Tours</a></li>
+                                <li class="mb-2"><a href="#" >World Tours</a></li>
+                                <li class="mb-2"><a href="#" >Family Tours</a></li>
+                                <li class="mb-2"><a href="#" >Economy Tours</a></li>
+                                <li class="mb-2"><a href="#" >Corporate Tours</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="page-links mb-4">
+                            <h5 class=" text-white text-capitalize title">Speciality Tours</h5>
+                            <ul class="list-unstyled useful-link">
+                                <li class="mb-2"><a href="#">Honeymoon Special</a></li>
+                                <li class="mb-2"><a href="#">Weekend Special</a></li>
+                                <li class="mb-2"><a href="#">Women’s Special</a></li>
+                                <li class="mb-2"><a href="#">Men’s Special</a></li>
+                                <li class="mb-2"><a href="#">Students Special</a></li>
+                                <li class="mb-2"><a href="#">Post Tour Special</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="page-links mb-4">
+                            <h5 class=" text-white title">Contact</h5>
+                            <div class="footer-widget-contacts">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 text-white">
+                                        <i class="fa fa-map-marker"></i> 
+                                        4211, 2367 Nash Street, <span class="ml-lg-10">Waterloo, Michigan</span>
+                                    </li>
+                                    <li class="mb-2 text-white">
+                                        <i class="fa fa-phone"></i> 
+                                        +91 1234567890
+                                    </li>
+                                    <li class="mb-2 text-white">
+                                        <i class="fa fa-envelope"></i> 
+                                        mail@domain.com
+                                    </li>
+                                    <li class="social mt-4">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </section>      
+        <section class=" bg-grey">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-lg-12">
+                        <p class="text-white text-center">Copyright 2018 World Trip, Inc. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>   
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/pushy.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap4.min.js"></script>
+    <script src="js/dataTables.responsive.min.js"></script>
+    <script src="js/responsive.bootstrap4.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#datatable').DataTable({
+                "bLengthChange": false,
+                "paging": false,
+                "bInfo": false,
+                "bSort":false,
+                responsive:true,
+                "bFilter": false,
+                "aaSorting": [[ 1, 'asc' ]],
+                "aoColumnDefs": 
+                [
+                    { "bSortable": false, "aTargets": [4]},
+                    {"aTargets": [0], "sWidth":'20%'},
+                    {"aTargets": [1], "sWidth":'20%'},
+                    {"aTargets": [2], "sWidth":'15%'},
+                    {"aTargets": [3], "sWidth":'30%'}
+                ],
+            });
+            
+            $('#datatable1').DataTable({
+                "bLengthChange": false,
+                "paging": false,
+                "bInfo": false,
+                "bSort":false,
+                responsive:true,
+                "bFilter": false,
+                "aaSorting": [[ 1, 'asc' ]],
+                "aoColumnDefs": 
+                [
+                    { "bSortable": false, "aTargets": [4]},
+                    {"aTargets": [0], "sWidth":'20%'},
+                    {"aTargets": [1], "sWidth":'20%'},
+                    {"aTargets": [2], "sWidth":'15%'},
+                    {"aTargets": [3], "sWidth":'30%'}
+                ],
+            });
+        });
+    </script>
+</body>
+</html>

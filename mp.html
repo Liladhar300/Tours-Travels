@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>World Trip | Bootstrap4 Tours and Travels Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href="css/font-awesome-animation.min.css" rel="stylesheet">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/default.css">
+    <!-- Custom stylesheet-->
+    <link rel="stylesheet"  href="css/style.css">
+    <!-- Pushy CSS -->
+    <link rel="stylesheet" href="css/pushy.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
+    <div class="pre-loader"></div>
+
+    <div class="top-bar hidden-lg-down py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="info list-inline float-lg-left nav-fs">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="text-blue fa fa-envelope-o"></i> mail@domain.com
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <i class="text-blue fa fa-phone"></i> +91 1234567890
+                        </li>
+
+                    </ul> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-right">
+                        <ul class="list-inline sm-text-center float-lg-right info">
+                            <li class="list-inline-item">
+                                <a href="flights.html" class="hover-color">
+                                    <i class="text-blue fa fa-plane mr-1"></i> Flights
+                                </a>
+                            </li>
+                            
+                            <li class="list-inline-item">
+                                <a href="hotels.html" class="hover-color pr-1">
+                                    <i class="text-blue fa fa-bed mr-1"></i> Hotels
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="login.html" class="hover-color">
+                                    <i class="text-blue fa fa-user mr-1"></i> Login
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="register.html" class="hover-color pr-0">
+                                    <i class="text-blue fa fa-lock mr-1"></i> Create an Account
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!--container end-->
+    </div>
+
+    <nav class="pushy pushy-right" data-focus="#first-link">
+        <div class="pushy-content">
+            <ul class="list-unstyled">
+                <li class="pushy-link"><a href="login.html">Login</a></li>
+
+                <li class="pushy-link"><a href="register.html">Register</a></li>
+
+                <li class="pushy-link">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="pushy-submenu">
+                    <button>Group Tours</button>
+                    <ul class="list-unstyled pushy-megamenu">
+                        <li class="pushy-link"><span class="pl-3">India Tours</span></li>
+                        <li class="pushy-link"><a href="andaman.html">Andaman</a></li>
+                        <li class="pushy-link"><a href="goa.html">Goa</a></li>
+                        <li class="pushy-link"><a href="gujarat.html">Gujarat</a></li>
+                        <li class="pushy-link"><a href="hp.html">Himachal Pradesh</a></li>
+                        <li class="pushy-link"><a href=kashmir.html>Kashmir</a></li>
+                        <li class="pushy-link"><a href="kerala.html">Kerala</a></li>
+                        <li class="pushy-link"><a href="ladakh.html">Leh Ladakh</a></li>
+                        <li class="pushy-link"><a href="mp.html">Madhya Pradesh</a></li>
+                        <li class="pushy-link"><a href="ne.html">NorthEast</a></li>
+                        <li class="pushy-link"><a href="rajasthan.html">Rajasthan</a></li>
+
+                        <li class="my-3 pushy-link"><span>World Tours</span></li>
+                        <li class="pushy-link"><a href="america.html">America</a></li>
+                        <li class="pushy-link"><a href="aussie.html">Australia</a></li>
+                        <li class="pushy-link"><a href="dubai.html">Dubai</a></li>
+                        <li class="pushy-link"><a href="europe.html">Europe</a></li>
+                        <li class="pushy-link"><a href="japan.html">Japan</a></li>
+                        <li class="pushy-link"><a href="mauritius.html">Mauritius</a></li>
+                        <li class="pushy-link"><a href="thailand.html">Thailand</a></li>
+                        <li class="pushy-link"><a href="singapore.html">Singapore</a></li>
+                    </ul>
+                </li>
+
+                <li class="pushy-submenu">
+                    <button>Speciality Tours</button>
+                    <ul class="list-unstyled pushy-megamenu">
+                        <li class="pushy-link"><a href="honeymoon.html">Honeymoon Special</a></li>
+                        <li class="pushy-link"><a href="weekend.html">Weekend Special</a></li>
+                        <li class="pushy-link"><a href="womens.html">Women’s Special</a></li>
+                        <li class="pushy-link"><a href="students.html">Students Special</a></li>
+                        <li class="pushy-link"><a href="post-tours.html">Post Tour Special</a></li>
+                    </ul>
+                </li>
+
+                <li class="pushy-link"><a href="corporate.html">Corporate Tours</a></li>
+                <li class="pushy-link"><a href="tours-status.html">Tours Status</a></li>
+                <li class="pushy-link"><a href="flights.html">Flights</a></li>
+
+                <li class="pushy-link"><a href="hotels.html">Hotels</a></li>
+
+                <li class="pushy-link"><a href="aboutus.html">About us</a></li>
+
+                <li class="pushy-link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hidden-lg-down">
+        <nav class="navbar navbar-toggleable-md navbar-light yamm">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right navbar-custom-toggle collapsed" type="button" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" class="img-fluid" alt="Logo">
+                </a>
+
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav ml-auto nav-fs align-middle">
+                        <li class="nav-item text-uppercase">
+                            <a href="index.html" class="nav-link mr-sm-1 mr-2">Home</a>
+                        </li>
+
+                        <li class="dropdown menu-large nav-item text-uppercase">
+                            <a href="#" class="dropdown-toggle nav-link mr-sm-1 mr-2" data-toggle="dropdown">Group Tours</a>
+                            <ul class="dropdown-menu megamenu menu nav-fs">
+                                <div class="row bg-blue">
+                                    <li class="col-lg-6 dropdown-item border-right-0 pl-4 pr-0">
+                                        <ul class="list-unstyled sub-megamenu">
+                                            <li class="mb-3"><span>India Tours</span></li>
+                                            <li class="mb-2"><a href="andaman.html">Andaman</a></li></li>
+                                            <li class="mb-2"><a href="goa.html">Goa</a></li>
+                                            <li class="mb-2"><a href="gujarat.html">Gujarat</a></li>
+                                            <li class="mb-2"><a href="hp.html">Himachal Pradesh</a></li>
+                                            <li class="mb-2"><a href=kashmir.html>Kashmir</a></li>
+                                            <li class="mb-2"><a href="kerala.html">Kerala</a></li>
+                                            <li class="mb-2"><a href="ladakh.html">Leh Ladakh</a></li>
+                                            <li class="mb-2"><a href="mp.html">Madhya Pradesh</a></li>
+                                            <li class="mb-2"><a href="ne.html">NorthEast</a></li>
+                                            <li class="mb-2"><a href="rajasthan.html">Rajasthan</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-lg-6 dropdown-item border-left-0 px-0">
+                                        <ul class="list-unstyled sub-megamenu">
+                                            <li class="mb-3"><span>World Tours</span></li>
+                                            <li class="mb-2"><a href="america.html">America</a></li>
+                                            <li class="mb-2"><a href="aussie.html">Australia</a></li>
+                                            <li class="mb-2"><a href="dubai.html">Dubai</a></li>
+                                            <li class="mb-2"><a href="europe.html">Europe</a></li>
+                                            <li class="mb-2"><a href="japan.html">Japan</a></li>
+                                            <li class="mb-2"><a href="mauritius.html">Mauritius</a></li>
+                                            <li class="mb-2"><a href="thailand.html">Thailand</a></li>
+                                            <li class="mb-2"><a href="singapore.html">Singapore</a></li>
+                                        </ul>
+                                    </li>    
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class=" dropdown nav-item text-uppercase">
+                            <a href="#" class="dropdown-toggle nav-link mr-sm-1 mr-2" data-toggle="dropdown">Speciality Tours</a>
+                            <ul class="dropdown-menu dropdown-menu-left menu nav-fs">
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="honeymoon.html">Honeymoon Special</a>
+                                </li> 
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="weekend.html">Weekend Special</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="womens.html">Women’s Special</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="students.html">Students Special</a>
+                                </li>  
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="post-tours.html">Post Tour Special</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="corporate.html" class="nav-link mr-sm-1 mr-2">Corporate Tours</a>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="tours-status.html" class="nav-link mr-sm-1 mr-2">Tours Status</a>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="aboutus.html" class="nav-link mr-sm-1 mr-2">About us</a>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="contact.html" class="nav-link pr-0">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="hidden-lg-up tagg">
+        <nav class="navbar fixed-top navbar-toggleable-sm navbar-light navbar-side">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" class="img-fluid" alt="Logo">
+                </a>
+
+                <ul class="nav navbar-nav ml-auto nav-fs navbar-custom-toggle navbar-toggler-right">
+                    <li class="nav-item">
+                        <i class="fa fa-bars menu-btn bar-fs" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="site-overlay"></div>
+
+    <section class="mt-sm-6">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-lg-3">
+                    <h5 class="mt-2 mb-32 text-capitalize">Filters</h5>
+                    <div id="accordion" class="accordion mb-4">
+                        <div class="card mb-0">
+                            <a class="card-header accordion-text bg-white collapsed custom-medium" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" href="#collapseOne">
+                                Price
+                            </a>
+                            <div id="collapseOne" class="panel-collapse collapse show">
+                                <div class="card-block">
+                                    <label class="control control--checkbox">Upto 20,000
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">20,000 - 30,000
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">30,000 - 40,000
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">40,000 - 50,000
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+
+                                    <label class="control control--checkbox">Above 1,00,000
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+
+                                    <div class="mt-4">
+                                        <input class="form-control custom-price custom-form max rounded-0 mb-2" type="text" placeholder="Min">
+                                        <span class="mx-1 custom-small">To</span>
+                                        <input class="form-control custom-price custom-form max rounded-0 my-2" type="text" placeholder="Max">
+                                        <button class="btn btn-outline-black rounded-0 custom-mar py-2 btn-sm">Go</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="card-header accordion-text bg-white collapsed custom-medium" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSecond" href="#collapseSecond">
+                                Duration
+                            </a>
+                            <div id="collapseSecond" class="panel-collapse collapse show">
+                                <div class="card-block">
+                                    <label class="control control--checkbox">8 to 8 days
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+
+                                    <div class="mt-4">
+                                        <input class="form-control custom-price custom-form max rounded-0 mb-2" type="text" placeholder="Min">
+                                        <span class="mx-1 custom-small">To</span>
+                                        <input class="form-control custom-price custom-form max rounded-0 my-2" type="text" placeholder="Max">
+                                        <button class="btn btn-outline-black rounded-0 custom-mar py-2 btn-sm">Go</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="card-header accordion-text bg-white collapsed custom-medium" data-toggle="collapse" data-parent="#accordion" data-target="#collapseSix" href="#collapseSix">
+                                Date of Travel
+                            </a>
+                            <div id="collapseSix" class="panel-collapse collapse">
+                                <div class="card-block">
+                                    <div class="input-group mb-3">
+                                        <input class="form-control rounded-0 max custom-medium" placeholder="From" type="text" id='datepicker1'>
+                                        <span class="input-group-addon custom-addon">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <input class="form-control rounded-0 max custom-medium" placeholder="To" type="text" id='datepicker2'>
+                                        <span class="input-group-addon custom-addon">
+                                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                    <div class="text-center mt-2">
+                                        <button class="btn btn-outline-black rounded-0 br-15">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="card-header accordion-text bg-white collapsed custom-medium" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThird" href="#collapseThird">
+                                Speciality Tours
+                            </a>
+                            <div id="collapseThird" class="panel-collapse collapse show">
+                                <div class="card-block scroll-list custom-scroll">
+                                    <label class="control control--checkbox">Honeymoon Special
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Weekend Special
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Women’s Special
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Students Special
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Post Tour Special
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+
+                                    <div class="mt-4">
+                                        <input class="form-control custom-price custom-form max rounded-0 mb-2" type="text" placeholder="Min">
+                                        <span class="mx-1 custom-small">To</span>
+                                        <input class="form-control custom-price custom-form max rounded-0 my-2" type="text" placeholder="Max">
+                                        <button class="btn btn-outline-black rounded-0 custom-mar py-2 btn-sm">Go</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="card-header accordion-text bg-white collapsed custom-medium" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" href="#collapseFour">
+                                World Tours
+                            </a>
+                            <div id="collapseFour" class="panel-collapse collapse show">
+                                <div class="card-block scroll-list custom-scroll">
+                                    <label class="control control--checkbox">America
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Australia
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Dubai
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Europe
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Japan
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Mauritius
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Thailand
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Singapore
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+
+                                    <div class="mt-4">
+                                        <input class="form-control custom-price custom-form max rounded-0 mb-2" type="text" placeholder="Min">
+                                        <span class="mx-1 custom-small">To</span>
+                                        <input class="form-control custom-price custom-form max rounded-0 my-2" type="text" placeholder="Max">
+                                        <button class="btn btn-outline-black rounded-0 custom-mar py-2 btn-sm">Go</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a class="card-header accordion-text bg-white collapsed custom-medium" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFive" href="#collapseFive">
+                                India Tours
+                            </a>
+                            <div id="collapseFive" class="panel-collapse collapse show">
+                                <div class="card-block scroll-list custom-scroll">
+                                    <label class="control control--checkbox">Andaman
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Goa
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Gujarat
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Himachal Pradesh
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Kashmir
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Kerala
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Leh Ladakh
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Madhya Pradesh
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">Rajasthan
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                                    <label class="control control--checkbox">NorthEast
+                                        <input type="checkbox">
+                                        <div class="control__indicator"></div>
+                                    </label>
+
+                                    <div class="mt-4">
+                                        <input class="form-control custom-price custom-form max rounded-0 mb-2" type="text" placeholder="Min">
+                                        <span class="mx-1 custom-small">To</span>
+                                        <input class="form-control custom-price custom-form max rounded-0 my-2" type="text" placeholder="Max">
+                                        <button class="btn btn-outline-black rounded-0 custom-mar py-2 btn-sm">Go</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-9">
+                    <div class="row mb-2">
+                        <div class="col-lg-8">
+                            <h5 class="mt-2 display-table">Madhya Pradesh</h5>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="input-group float-lg-right z-0">
+                                <input class="form-control rounded-0" placeholder="Search" type="text">
+                                <span class="input-group-addon custom-addon">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery1.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$699</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery2.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$488</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery3.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$650</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery4.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$300</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery5.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$756</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery6.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$898</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery7.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$258</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery8.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$599</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery9.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$699</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery10.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$482</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery11.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$258</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-3">
+                            <div class="card mb-3 card-trans card-shadow">
+                                <a href="#" class="h-100 image-over">
+                                    <img class="img-fluid " src="img/gallery12.jpg" alt="MP image">
+                                </a>
+                                <div class="overlay-icons">
+                                    <i class="fa fa-bed mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-cutlery mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-binoculars mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-bus mr-1" aria-hidden="true"></i>
+                                    <i class="fa fa-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="card-block p-2">
+                                    <div>
+                                        <a class="tours" href="#" title="Madhya Pradesh">Madhya Pradesh</a>
+                                        <span class="float-right">$999</span>
+                                    </div>
+                                    <div class="custom-sm">
+                                        <span>4 Days/3 Nights</span>
+                                        <span class="float-right text-muted">Starting price</span>
+                                    </div>
+                                    <p class="mt-3 mb-0">
+                                        <a href="#" class="btn btn-outline-black btn-sm br-15 mb-2 ">View Details</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm br-15 mb-2 float-right">Enquiry</a>
+                                    </p>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--back to top-->
+    <a href="#" class="scrollToTop hidden-lg-down"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    
+    <footer class="footer">
+        <section class="bg-blue py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="page-links mb-4">
+                            <h5 class=" text-white text-capitalize title">Useful Links</h5>
+                            <ul class="list-unstyled useful-link">
+                                <li class="mb-2"><a href="aboutus.html">About us</a></li>
+                                <li class="mb-2"><a href="#">Careers</a></li>
+                                <li class="mb-2"><a href="#">FAQs</a></li>
+                                <li class="mb-2"><a href="#">How to Book</a></li>
+                                <li class="mb-2"><a href="#">Privacy Policy</a></li>
+                                <li class="mb-2"><a href="#">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="page-links mb-4">
+                            <h5 class=" text-white text-capitalize title">Group Tours</h5>
+                            <ul class="list-unstyled useful-link">
+                                <li class="mb-2"><a href="#">India Tours</a></li>
+                                <li class="mb-2"><a href="#">World Tours</a></li>
+                                <li class="mb-2"><a href="#">Family Tours</a></li>
+                                <li class="mb-2"><a href="#">Economy Tours</a></li>
+                                <li class="mb-2"><a href="corporate.html">Corporate Tours</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="page-links mb-4">
+                            <h5 class=" text-white text-capitalize title">Speciality Tours</h5>
+                            <ul class="list-unstyled useful-link">
+                                <li class="mb-2"><a href="honeymoon.html">Honeymoon Special</a></li>
+                                <li class="mb-2"><a href="weekend.html">Weekend Special</a></li>
+                                <li class="mb-2"><a href="womens.html">Women’s Special</a></li>
+                                <li class="mb-2"><a href="#">Men’s Special</a></li>
+                                <li class="mb-2"><a href="students.html">Students Special</a></li>
+                                <li class="mb-2"><a href="post-tours.html">Post Tour Special</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="page-links mb-4">
+                            <h5 class=" text-white title">Contact</h5>
+                            <div class="footer-widget-contacts">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 text-white">
+                                        <i class="fa fa-map-marker"></i> 
+                                        4211, 2367 Nash Street, <span class="ml-lg-10">Waterloo, Michigan</span>
+                                    </li>
+                                    <li class="mb-2 text-white">
+                                        <i class="fa fa-phone"></i> 
+                                        +91 1234567890
+                                    </li>
+                                    <li class="mb-2 text-white">
+                                        <i class="fa fa-envelope"></i> 
+                                        mail@domain.com
+                                    </li>
+                                    <li class="social mt-4">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </section>      
+        <section class=" bg-grey">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-lg-12">
+                        <p class="text-white text-center">Copyright 2018 World Trip, Inc. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>   
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/pushy.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#datepicker1').datepicker({
+                onSelect: function(selected) {
+                  $("#datepicker2").datepicker("option","minDate", selected)
+                }   
+            });
+            $('#datepicker2').datepicker({
+                onSelect: function(selected) {
+                   $("#datepicker1").datepicker("option","maxDate", selected)
+                }
+            });
+        });
+    </script> 
+</body>
+</html>

@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>World Trip | Bootstrap4 Tours and Travels Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href="css/font-awesome-animation.min.css" rel="stylesheet">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/default.css">
+    <!-- Custom stylesheet-->
+    <link rel="stylesheet"  href="css/style.css">
+    <!-- Pushy CSS -->
+    <link rel="stylesheet" href="css/pushy.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
+    <div class="pre-loader"></div>
+
+    <div class="top-bar hidden-lg-down py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="info list-inline float-lg-left nav-fs">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="text-blue fa fa-envelope-o"></i> mail@domain.com
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <i class="text-blue fa fa-phone"></i> +91 1234567890
+                        </li>
+
+                    </ul> 
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-right">
+                        <ul class="list-inline sm-text-center float-lg-right info">
+                            <li class="list-inline-item">
+                                <a href="flights.html" class="hover-color">
+                                    <i class="text-blue fa fa-plane mr-1"></i> Flights
+                                </a>
+                            </li>
+                            
+                            <li class="list-inline-item">
+                                <a href="hotels.html" class="hover-color pr-1">
+                                    <i class="text-blue fa fa-bed mr-1"></i> Hotels
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="login.html" class="hover-color">
+                                    <i class="text-blue fa fa-user mr-1"></i> Login
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="register.html" class="hover-color pr-0">
+                                    <i class="text-blue fa fa-lock mr-1"></i> Create an Account
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!--container end-->
+    </div>
+
+    <nav class="pushy pushy-right" data-focus="#first-link">
+        <div class="pushy-content">
+            <ul class="list-unstyled">
+                <li class="pushy-link"><a href="login.html">Login</a></li>
+
+                <li class="pushy-link"><a href="register.html">Register</a></li>
+
+                <li class="pushy-link">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="pushy-submenu">
+                    <button>Group Tours</button>
+                    <ul class="list-unstyled pushy-megamenu">
+                        <li class="pushy-link"><span class="pl-3">India Tours</span></li>
+                        <li class="pushy-link"><a href="andaman.html">Andaman</a></li>
+                        <li class="pushy-link"><a href="goa.html">Goa</a></li>
+                        <li class="pushy-link"><a href="gujarat.html">Gujarat</a></li>
+                        <li class="pushy-link"><a href="hp.html">Himachal Pradesh</a></li>
+                        <li class="pushy-link"><a href=kashmir.html>Kashmir</a></li>
+                        <li class="pushy-link"><a href="kerala.html">Kerala</a></li>
+                        <li class="pushy-link"><a href="ladakh.html">Leh Ladakh</a></li>
+                        <li class="pushy-link"><a href="mp.html">Madhya Pradesh</a></li>
+                        <li class="pushy-link"><a href="ne.html">NorthEast</a></li>
+                        <li class="pushy-link"><a href="rajasthan.html">Rajasthan</a></li>
+
+                        <li class="my-3 pushy-link"><span>World Tours</span></li>
+                        <li class="pushy-link"><a href="america.html">America</a></li>
+                        <li class="pushy-link"><a href="aussie.html">Australia</a></li>
+                        <li class="pushy-link"><a href="dubai.html">Dubai</a></li>
+                        <li class="pushy-link"><a href="europe.html">Europe</a></li>
+                        <li class="pushy-link"><a href="japan.html">Japan</a></li>
+                        <li class="pushy-link"><a href="mauritius.html">Mauritius</a></li>
+                        <li class="pushy-link"><a href="thailand.html">Thailand</a></li>
+                        <li class="pushy-link"><a href="singapore.html">Singapore</a></li>
+                    </ul>
+                </li>
+
+                <li class="pushy-submenu">
+                    <button>Speciality Tours</button>
+                    <ul class="list-unstyled pushy-megamenu">
+                        <li class="pushy-link"><a href="honeymoon.html">Honeymoon Special</a></li>
+                        <li class="pushy-link"><a href="weekend.html">Weekend Special</a></li>
+                        <li class="pushy-link"><a href="womens.html">Women’s Special</a></li>
+                        <li class="pushy-link"><a href="students.html">Students Special</a></li>
+                        <li class="pushy-link"><a href="post-tours.html">Post Tour Special</a></li>
+                    </ul>
+                </li>
+
+                <li class="pushy-link"><a href="corporate.html">Corporate Tours</a></li>
+                <li class="pushy-link"><a href="tours-status.html">Tours Status</a></li>
+                <li class="pushy-link"><a href="flights.html">Flights</a></li>
+
+                <li class="pushy-link"><a href="hotels.html">Hotels</a></li>
+
+                <li class="pushy-link"><a href="aboutus.html">About us</a></li>
+
+                <li class="pushy-link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hidden-lg-down">
+        <nav class="navbar navbar-toggleable-md navbar-light yamm">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right navbar-custom-toggle collapsed" type="button" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" class="img-fluid" alt="Logo">
+                </a>
+
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav ml-auto nav-fs align-middle">
+                        <li class="nav-item text-uppercase">
+                            <a href="index.html" class="nav-link mr-sm-1 mr-2">Home</a>
+                        </li>
+
+                        <li class="dropdown menu-large nav-item text-uppercase">
+                            <a href="#" class="dropdown-toggle nav-link mr-sm-1 mr-2" data-toggle="dropdown">Group Tours</a>
+                            <ul class="dropdown-menu megamenu menu nav-fs">
+                                <div class="row bg-blue">
+                                    <li class="col-lg-6 dropdown-item border-right-0 pl-4 pr-0">
+                                        <ul class="list-unstyled sub-megamenu">
+                                            <li class="mb-3"><span>India Tours</span></li>
+                                            <li class="mb-2"><a href="andaman.html">Andaman</a></li></li>
+                                            <li class="mb-2"><a href="goa.html">Goa</a></li>
+                                            <li class="mb-2"><a href="gujarat.html">Gujarat</a></li>
+                                            <li class="mb-2"><a href="hp.html">Himachal Pradesh</a></li>
+                                            <li class="mb-2"><a href=kashmir.html>Kashmir</a></li>
+                                            <li class="mb-2"><a href="kerala.html">Kerala</a></li>
+                                            <li class="mb-2"><a href="ladakh.html">Leh Ladakh</a></li>
+                                            <li class="mb-2"><a href="mp.html">Madhya Pradesh</a></li>
+                                            <li class="mb-2"><a href="ne.html">NorthEast</a></li>
+                                            <li class="mb-2"><a href="rajasthan.html">Rajasthan</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-lg-6 dropdown-item border-left-0 px-0">
+                                        <ul class="list-unstyled sub-megamenu">
+                                            <li class="mb-3"><span>World Tours</span></li>
+                                            <li class="mb-2"><a href="america.html">America</a></li>
+                                            <li class="mb-2"><a href="aussie.html">Australia</a></li>
+                                            <li class="mb-2"><a href="dubai.html">Dubai</a></li>
+                                            <li class="mb-2"><a href="europe.html">Europe</a></li>
+                                            <li class="mb-2"><a href="japan.html">Japan</a></li>
+                                            <li class="mb-2"><a href="mauritius.html">Mauritius</a></li>
+                                            <li class="mb-2"><a href="thailand.html">Thailand</a></li>
+                                            <li class="mb-2"><a href="singapore.html">Singapore</a></li>
+                                        </ul>
+                                    </li>    
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class=" dropdown nav-item text-uppercase">
+                            <a href="#" class="dropdown-toggle nav-link mr-sm-1 mr-2" data-toggle="dropdown">Speciality Tours</a>
+                            <ul class="dropdown-menu dropdown-menu-left menu nav-fs">
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="honeymoon.html">Honeymoon Special</a>
+                                </li> 
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="weekend.html">Weekend Special</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="womens.html">Women’s Special</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="students.html">Students Special</a>
+                                </li>  
+                                <li>
+                                    <a class="dropdown-item text-uppercase" href="post-tours.html">Post Tour Special</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="corporate.html" class="nav-link mr-sm-1 mr-2">Corporate Tours</a>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="tours-status.html" class="nav-link mr-sm-1 mr-2">Tours Status</a>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="aboutus.html" class="nav-link mr-sm-1 mr-2">About us</a>
+                        </li>
+
+                        <li class="nav-item text-uppercase">
+                            <a href="contact.html" class="nav-link pr-0">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="hidden-lg-up tagg">
+        <nav class="navbar fixed-top navbar-toggleable-sm navbar-light navbar-side">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" class="img-fluid" alt="Logo">
+                </a>
+
+                <ul class="nav navbar-nav ml-auto nav-fs navbar-custom-toggle navbar-toggler-right">
+                    <li class="nav-item">
+                        <i class="fa fa-bars menu-btn bar-fs" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="site-overlay"></div>
+
+    <section id="travel-holiday">
+        <div class="display-table bg-image">
+            <div class="verticle-middle">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="row mt-4">
+                                <div class="col-lg-12">
+                                    <ul class="nav nav-tabs nav-tabs-center nav-justified menu-tabs" role="tablist">
+                                        <li class="nav-item mr-lg-2">
+                                            <a href="#holidays" class="nav-link" aria-controls="holidays" role="tab" data-toggle="tab">
+                                                <span class="custom-medium">
+                                                    <i class="fa-tabs fa fa-camera-retro" aria-hidden="true"></i>Holidays
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item mr-lg-2">
+                                            <a href="#flights" class="nav-link active" aria-controls="flights" role="tab" data-toggle="tab">
+                                                <span class="custom-medium">
+                                                    <i class="fa-tabs fa fa-plane" aria-hidden="true"></i>Flights
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#hotels" class="nav-link" aria-controls="hotels" role="tab" data-toggle="tab">
+                                                <span class="custom-medium">
+                                                    <i class="fa-tabs fa fa-bed" aria-hidden="true"></i>Hotels
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="col-lg-12">
+                                    <div class="tab-content mb-3">
+                                        <div class="tab-pane card blue-trans rounded-0 fade" id="holidays">
+                                            <div class="card-block pb-1">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Start Date</label>
+                                                            <div class="input-group mb-3 browse-cat">
+                                                                <input class="form-control rounded-0 search-box" placeholder="From" type="text" id='datepicker1'>
+                                                                <span class="input-group-addon search-addon">
+                                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputName" class="text-white custom-sm">End Date</label>
+                                                            <div class="input-group mb-3 browse-cat">
+                                                                <input class="form-control rounded-0 search-box" placeholder="To" type="text" id='datepicker2'>
+                                                                <span class="input-group-addon search-addon">
+                                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                                </span>
+                                                            </div>    
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group mb-3">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Select Duration
+                                                            </label>
+                                                            <select class="form-control rounded-0 browse-cat">
+                                                                <option>Select Duration</option>
+                                                                <option>2 Days/1 Night</option>
+                                                                <option>5 Days/4 Nights</option>
+                                                                <option>10 Days/9 Nights</option>
+                                                                <option>12 Days/11 Nights</option>
+                                                                <option>15 Days/14 Nights</option>
+                                                                <option>20 Days/19 Nights</option>
+                                                                <option>22 Days/21 Nights</option>
+                                                                <option>25 Days/24 Nights</option>
+                                                                <option>30 Days/29 Nights</option>
+                                                                <option>32 Days/31 Nights</option>
+                                                                <option>35 Days/34 Nights</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group mb-3">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Package Type
+                                                            </label>
+                                                            <select class="form-control rounded-0 browse-cat">
+                                                                <option>Select Category</option>
+                                                                <option>Honeymoon Special</option>
+                                                                <option>Women’s Special</option>
+                                                                <option>Beach</option>
+                                                                <option>Adventure</option>
+                                                                <option>Students Special</option>
+                                                                <option>Weekend Special</option>
+                                                                <option>Singles Special</option>
+                                                                <option>Couples Special</option>
+                                                                <option>Senior's Special</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <p class="px-3">
+                                                        <a href="#" class="btn btn-yellow br-15 mb-2">Search Holidays</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane card blue-trans rounded-0 fade in show active" id="flights">
+                                            <div class="card-block pb-1">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputName" class="text-white custom-sm">From</label>
+                                                            <div class="input-group mb-3 browse-cat">
+                                                                <input class="form-control rounded-0 search-box" placeholder="From" type="text">
+                                                                <span class="input-group-addon search-addon">
+                                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputName" class="text-white custom-sm">To</label>
+                                                            <div class="input-group mb-3 browse-cat">
+                                                                <input class="form-control rounded-0 search-box" placeholder="To" type="text">
+                                                                <span class="input-group-addon search-addon">
+                                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                                </span>
+                                                            </div>    
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Date of Journey</label>
+                                                            <div class="input-group mb-3 browse-cat">
+                                                                <input class="form-control rounded-0 search-box" placeholder="From" type="text" id='datepicker3'>
+                                                                <span class="input-group-addon search-addon">
+                                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Return Date</label>
+                                                            <div class="input-group mb-3 browse-cat">
+                                                                <input class="form-control rounded-0 search-box" placeholder="To" type="text" id='datepicker4'>
+                                                                <span class="input-group-addon search-addon">
+                                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                                </span>
+                                                            </div>    
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-7">
+                                                        <div class="row">
+                                                            <div class="col-lg-4 col-sm-4">
+                                                                <div class="form-group mb-3">
+                                                                    <label for="exampleInputName" class="text-white custom-sm">Adults(12+yrs)
+                                                                    </label>
+                                                                    <select class="form-control rounded-0 browse-cat">
+                                                                        <option>1</option>
+                                                                        <option>2 </option>
+                                                                        <option>3</option>
+                                                                        <option>4</option>
+                                                                        <option>5</option>
+                                                                        <option>6</option>
+                                                                        <option>7</option>
+                                                                        <option>8</option>
+                                                                        <option>9</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-sm-4">
+                                                                <div class="form-group mb-3">
+                                                                    <label for="exampleInputName" class="text-white custom-sm">Childs(2-11yrs)
+                                                                    </label>
+                                                                    <select class="form-control rounded-0 browse-cat">
+                                                                        <option>0</option>
+                                                                        <option>1</option>
+                                                                        <option>2 </option>
+                                                                        <option>3</option>
+                                                                        <option>4</option>
+                                                                        <option>5</option>
+                                                                        <option>6</option>
+                                                                        <option>7</option>
+                                                                        <option>8</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-sm-4">
+                                                                <div class="form-group mb-3">
+                                                                    <label for="exampleInputName" class="text-white custom-sm">Infants(0-2yrs)
+                                                                    </label>
+                                                                    <select class="form-control rounded-0 browse-cat">
+                                                                        <option>0</option>
+                                                                        <option>1</option>
+                                                                        <option>2</option>
+                                                                        <option>3</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        <div class="form-group mb-3">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Class of Travel
+                                                            </label>
+                                                            <select class="form-control rounded-0 browse-cat">
+                                                                <option>Select Category</option>
+                                                                <option>Economy</option>
+                                                                <option>Premium Economy</option>
+                                                                <option>Business Class</option>
+                                                                <option>First Class</option>
+                                                                <option>Premium First Class</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <p class="px-3">
+                                                        <a href="#" class="btn btn-yellow br-15 mb-2">Search Flights</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane card blue-trans rounded-0 fade" id="hotels">
+                                            <div class="card-block pb-1">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Where would you like to stay</label>
+                                                            <div class="input-group mb-3 browse-cat">
+                                                                <span class="input-group-addon search-addon rounded-0">
+                                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                                </span>
+                                                                <input class="form-control rounded-0 search-box" placeholder="Enter a city" type="text">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Check-In</label>
+                                                            <div class="input-group mb-3 browse-cat">
+                                                                <input class="form-control rounded-0 search-box" placeholder="From" type="text" id='datepicker5'>
+                                                                <span class="input-group-addon search-addon">
+                                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-sm-6">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Check-Out</label>
+                                                            <div class="input-group mb-3 browse-cat">
+                                                                <input class="form-control rounded-0 search-box" placeholder="To" type="text" id='datepicker6'>
+                                                                <span class="input-group-addon search-addon">
+                                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                                </span>
+                                                            </div>    
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-3 col-sm-3">
+                                                        <div class="form-group mb-3">
+                                                            <label for="exampleInputName" class="text-white custom-sm">Rooms
+                                                            </label>
+                                                            <select class="form-control rounded-0 browse-cat">
+                                                                <option>1</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-9 col-sm-9">
+                                                        <div class="row">
+                                                            <div class="col-lg-2 col-sm-2 align-self-center pr-lg-0">
+                                                                <h6 class="mb-0 text-white float-lg-right">Room 1</h6>
+                                                            </div>
+                                                            <div class="col-lg-2 col-sm-2">
+                                                                <div class="form-group mb-3">
+                                                                    <label for="exampleInputName" class="text-white custom-sm">Adults
+                                                                    </label>
+                                                                    <select class="form-control rounded-0 browse-cat">
+                                                                        <option>1</option>
+                                                                        <option>2 </option>
+                                                                        <option>3</option>
+                                                                        <option>4</option>
+                                                                        <option>5</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2 col-sm-2">
+                                                                <div class="form-group mb-3">
+                                                                    <label for="exampleInputName" class="text-white custom-sm">Children
+                                                                    </label>
+                                                                    <select class="form-control rounded-0 browse-cat">
+                                                                        <option>0</option>
+                                                                        <option>1</option>
+                                                                        <option>2</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 col-sm-3">
+                                                                <div class="form-group mb-3">
+                                                                    <label for="exampleInputName" class="text-white custom-sm">Child 1 Age
+                                                                    </label>
+                                                                    <select class="form-control rounded-0 browse-cat">
+                                                                        <option>0</option>
+                                                                        <option>1</option>
+                                                                        <option>2</option>
+                                                                        <option>3</option>
+                                                                        <option>4</option>
+                                                                        <option>5</option>
+                                                                        <option>6</option>
+                                                                        <option>7</option>
+                                                                        <option>8</option>
+                                                                        <option>9</option>
+                                                                        <option>10</option>
+                                                                        <option>11</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3 col-sm-3">
+                                                                <div class="form-group mb-3">
+                                                                    <label for="exampleInputName" class="text-white custom-sm">Child 2 Age
+                                                                    </label>
+                                                                    <select class="form-control rounded-0 browse-cat">
+                                                                        <option>0</option>
+                                                                        <option>1</option>
+                                                                        <option>2</option>
+                                                                        <option>3</option>
+                                                                        <option>4</option>
+                                                                        <option>5</option>
+                                                                        <option>6</option>
+                                                                        <option>7</option>
+                                                                        <option>8</option>
+                                                                        <option>9</option>
+                                                                        <option>10</option>
+                                                                        <option>11</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <p class="px-3">
+                                                        <a href="#" class="btn btn-yellow br-15 mb-2">Search Hotels</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <h3 class="text-center text-linear pb-1">Popular Destinations for Flights</h3>
+                    <div class="row my-4">
+                        <div class="col-lg-3 col-6">
+                            <div class="mb-4">
+                                <ul class="list-unstyled browse-city ml-lg-3 ">
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Goa</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Andaman</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Gujarat</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Leh Ladakh</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Kerala</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Delhi</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="mb-4">
+                                <ul class="list-unstyled browse-city ml-lg-3 ">
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Rajasthan</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to MP</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to NorthEast</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to HP</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Manali</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Tamil Nadu</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="mb-4">
+                                <ul class="list-unstyled browse-city ml-lg-3 ">
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to America</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Paris</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Australia</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Japan</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Dubai</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Orlando</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="mb-4">
+                                <ul class="list-unstyled browse-city ml-lg-3 ">
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Europe</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Mauritius</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Thailand</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Singapore</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Hong Kong</a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#">
+                                           <i class="mr-2 fa-yellow fa fa-angle-double-right" aria-hidden="true"></i>
+                                        Flights to Bangkok</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--back to top-->
+    <a href="#" class="scrollToTop hidden-lg-down"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    
+    <footer class="footer">
+        <section class="bg-blue py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="mb-4">
+                            <h5 class=" text-white text-capitalize title">Useful Links</h5>
+                            <ul class="list-unstyled useful-link">
+                                <li class="mb-2"><a href="aboutus.html">About us</a></li>
+                                <li class="mb-2"><a href="#">Careers</a></li>
+                                <li class="mb-2"><a href="#">FAQs</a></li>
+                                <li class="mb-2"><a href="#">How to Book</a></li>
+                                <li class="mb-2"><a href="#">Privacy Policy</a></li>
+                                <li class="mb-2"><a href="#">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="mb-4">
+                            <h5 class=" text-white text-capitalize title">Group Tours</h5>
+                            <ul class="list-unstyled useful-link">
+                                <li class="mb-2"><a href="#">India Tours</a></li>
+                                <li class="mb-2"><a href="#">World Tours</a></li>
+                                <li class="mb-2"><a href="#">Family Tours</a></li>
+                                <li class="mb-2"><a href="#">Economy Tours</a></li>
+                                <li class="mb-2"><a href="corporate.html">Corporate Tours</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="mb-4">
+                            <h5 class=" text-white text-capitalize title">Speciality Tours</h5>
+                            <ul class="list-unstyled useful-link">
+                                <li class="mb-2"><a href="honeymoon.html">Honeymoon Special</a></li>
+                                <li class="mb-2"><a href="weekend.html">Weekend Special</a></li>
+                                <li class="mb-2"><a href="womens.html">Women’s Special</a></li>
+                                <li class="mb-2"><a href="#">Men’s Special</a></li>
+                                <li class="mb-2"><a href="students.html">Students Special</a></li>
+                                <li class="mb-2"><a href="post-tours.html">Post Tour Special</a></li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="mb-4">
+                            <h5 class=" text-white title">Contact</h5>
+                            <div class="footer-widget-contacts">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 text-white">
+                                        <i class="fa fa-map-marker"></i> 
+                                        4211, 2367 Nash Street, <span class="ml-lg-10">Waterloo, Michigan</span>
+                                    </li>
+                                    <li class="mb-2 text-white">
+                                        <i class="fa fa-phone"></i> 
+                                        +91 1234567890
+                                    </li>
+                                    <li class="mb-2 text-white">
+                                        <i class="fa fa-envelope"></i> 
+                                        mail@domain.com
+                                    </li>
+                                    <li class="social mt-4">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </section>      
+        <section class=" bg-grey">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-lg-12">
+                        <p class="text-white text-center">Copyright 2018 World Trip, Inc. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>   
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/owl-carousel.js"></script>
+    <script src="js/pushy.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#datepicker1').datepicker({
+                onSelect: function(selected) {
+                  $("#datepicker2").datepicker("option","minDate", selected)
+                }   
+            });
+            $('#datepicker2').datepicker({
+                onSelect: function(selected) {
+                   $("#datepicker1").datepicker("option","maxDate", selected)
+                }
+            });
+            $('#datepicker3').datepicker({
+                onSelect: function(selected) {
+                  $("#datepicker4").datepicker("option","minDate", selected)
+                }   
+            });
+            $('#datepicker4').datepicker({
+                onSelect: function(selected) {
+                   $("#datepicker3").datepicker("option","maxDate", selected)
+                }
+            });
+            $('#datepicker5').datepicker({
+                onSelect: function(selected) {
+                  $("#datepicker6").datepicker("option","minDate", selected)
+                }   
+            });
+            $('#datepicker6').datepicker({
+                onSelect: function(selected) {
+                   $("#datepicker5").datepicker("option","maxDate", selected)
+                }
+            });
+        });
+    </script> 
+</body>
+</html>
